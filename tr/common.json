@@ -1,0 +1,127 @@
+{
+    "index": {
+        "title": {
+            "slogan1": "BÜTÜN OYUNCULAR",
+            "slogan2": "İÇİN",
+            "slogan3": "TEK BİR YER"
+        },
+        "games": "Oyunlar",
+        "New": "YENİ",
+        "comingSoon": "Çok Yakında...",
+        "AboutUs": {
+            "title": "Hakkımızda",
+            "paragraf1": "Have you ever wanted to know how to get better at a game, but didn't know where to start? Have you ever wanted to share your tips and tricks with the rest of the world, but didn't know how? Well, we've got you covered.",
+            "paragraf2": "We believe that gaming is a social experience; one that shouldn't be limited by a lack of the right tool for the job, or a time waste looking for it. Our goal is to make sure you get a jump start on your improvement journey.",
+            "paragraf3": "We're talking about PLAYERSE, a project that allows gamers to access everything from guides for games like Valorant and League of Legends to wikis with information on pro players and their settings, blogs where players can discuss the games or latest patches maybe cool moves, and even stats in game stats for players.",
+            "paragraf4": "We're a team of gamers, enthusiasts, and dreamers. Who have been working hard to make PLAYERSE the best place on the web for gamers/players to find what they can imagine for that game they are playing."
+        }
+    },
+    "user": {
+        "Login": {
+            "title": "Giriş Yap",
+            "emailLabel": "Email adresi",
+            "emailPlaceholder": "Email adresinizi giriniz",
+            "passwordLabel": "Şifre",
+            "passwordPlaceholder": "Şifrenizi giriniz",
+            "loginButton": "Giriş Yap",
+            "ifUserNotHaveAccount": "Eğer hesabınız yoksa,",
+            "registerButton": "Kayıt Ol"
+        },
+        "Register": {
+            "title": "Kayıt Ol",
+            "usernameLabel": "Kullanıcı Adı",
+            "usernamePlaceholder": "@KullanıcıAdı",
+            "nameLabel": "İsim",
+            "namePlaceholder": "İsminizi giriniz",
+            "surnameLabel": "Soyisim",
+            "surnamePlaceholder": "Soyisminizi giriniz",
+            "emailLabel": "Email adresi",
+            "emailPlaceholder": "Email adresinizi giriniz",
+            "passwordLabel": "Şifre",
+            "passwordPlaceholder": "Şifrenizi giriniz",
+            "phoneLabel": "Telefon Numarası",
+            "phonePlaceholder": "Telefon numaranızı giriniz",
+            "registerButton": "Hesap Oluştur",
+            "ifUserHaveAccount": "Eğer hesabınız varsa,",
+            "loginButton": "Giriş Yap",
+            "successText": "Başarılı!"
+        }
+    },
+    "UI": {
+        "MobileBottomMenu": {
+            "more": "Daha Fazla"
+        },
+        "MobileGameNavbar": {
+            "srOnly": "Paneli Kapat",
+            "home": "Ana Sayfa",
+            "games": "Oyunlar",
+            "AboutUs": "Hakkımızda",
+            "dashboard": "Kontrol Paneli",
+            "news": "Haberler",
+            "Login": "Giriş Yap",
+            "SignUp": "Kayıt ol",
+            "greetings": "Merhaba"
+        },
+        "Navbar": {
+            "login": "Giriş Yap",
+            "signup": "Kayıt Ol"
+        },
+        "Footer": {
+            "thirdColumn": {
+                "privacyPolicy": "Privacy Policy",
+                "termsOfService": "Terms of Service",
+                "cookiePolicy": "Cookie Policy"
+            },
+            "version": "Version",
+            "rightsReserved": "All rights reserved."
+        }
+    },
+    "valorant": {
+        "ValorantIndex": {
+            "backgroundAlt": "Valorant index page background",
+            "searchText": "ara",
+            "searchPlaceholder": "Player name ex: id#tag"
+        },
+        "WeaponDetail": {
+            "WeaponInfoSection": {
+                "WeaponStats": {
+                    "title": "Silah İstatistikleri",
+                    "fireRate": "Ateş Hızı",
+                    "magazineSize": "Mermi Kapasitesi",
+                    "runSpeedMultiplier": "Koşma Hızı Çarpanı",
+                    "equipTimeSeconds": "Silah ele alma süresi(saniye)",
+                    "reloadTimeSeconds": "Doldurma süresi(saniye)",
+                    "firstBulletAccuracy": "İlk Mermi Doğruluğu",
+                    "shotgunPelletCount": "Küçük Silah Mermi Sayısı"
+                },
+                "Shopstats": {
+                    "title": "Mağaza İstatistikleri",
+                    "cost": "Fiyat",
+                    "category": "Kategori",
+                    "positionOnShop": "Mağazada Konumu"
+                },
+                "AdsStats": {
+                    "title": "Ads İstatistikleri",
+                    "wallPenetration": "Duvar Penetresi",
+                    "zoomMultiplier": "Yakınlaştırma Çarpanı",
+                    "fireRate": "Ateş Hızı",
+                    "runSpeedMultiplier": "Koşma Hızı Çarpanı",
+                    "burstCount": "Çoklu Ateş Sayısı",
+                    "firstBulletAccuracy": "İlk Mermi Doğruluğu",
+                    "fireMode": "Ateş Modu"
+                },
+                "RangeStats": {
+                    "title": "Menzil İstatistikleri",
+                    "range": "Menzil",
+                    "HeadDamage": "Kafa Hasarı",
+                    "BodyDamage": "Vücut Hasarı",
+                    "LegDamage": "Bacak Hasarı"
+                }
+            },
+            "allSkinsButtonText": "Tüm Skinlerini Görüntüle"
+        },
+        "AgentDetails": {
+            "Abilities": "Yetenekler"
+        }
+    }
+}

@@ -1,0 +1,127 @@
+{
+    "index": {
+        "title": {
+            "slogan1": "ALL-IN-ONE PLACE",
+            "slogan2": "FOR",
+            "slogan3": "PLAYERS"
+        },
+        "games": "Games",
+        "New": "NEW",
+        "comingSoon": "Coming Soon...",
+        "AboutUs": {
+            "title": "About Us",
+            "paragraf1": "Have you ever wanted to know how to get better at a game, but didn't know where to start? Have you ever wanted to share your tips and tricks with the rest of the world, but didn't know how? Well, we've got you covered.",
+            "paragraf2": "We believe that gaming is a social experience; one that shouldn't be limited by a lack of the right tool for the job, or a time waste looking for it. Our goal is to make sure you get a jump start on your improvement journey.",
+            "paragraf3": "We're talking about PLAYERSE, a project that allows gamers to access everything from guides for games like Valorant and League of Legends to wikis with information on pro players and their settings, blogs where players can discuss the games or latest patches maybe cool moves, and even stats in game stats for players.",
+            "paragraf4": "We're a team of gamers, enthusiasts, and dreamers. Who have been working hard to make PLAYERSE the best place on the web for gamers/players to find what they can imagine for that game they are playing."
+        }
+    },
+    "user": {
+        "Login": {
+            "title": "Login",
+            "emailLabel": "Email address",
+            "emailPlaceholder": "Enter your email address",
+            "passwordLabel": "Password",
+            "passwordPlaceholder": "Enter your email address",
+            "loginButton": "Login",
+            "ifUserNotHaveAccount": "If you don't have an account",
+            "registerButton": "Register"
+        },
+        "Register": {
+            "title": "Register",
+            "usernameLabel": "Username",
+            "usernamePlaceholder": "@username",
+            "nameLabel": "Name",
+            "namePlaceholder": "Please enter your name",
+            "surnameLabel": "Surname",
+            "surnamePlaceholder": "Please enter your surname",
+            "emailLabel": "Email address",
+            "emailPlaceholder": "Enter your email address",
+            "passwordLabel": "Password",
+            "passwordPlaceholder": "Enter your password",
+            "phoneLabel": "Phone Number",
+            "phonePlaceholder": "Enter your phone number",
+            "registerButton": "Create Account",
+            "ifUserHaveAccount": "If you have an account",
+            "loginButton": "Login",
+            "successText": "Success!"
+        }
+    },
+    "UI": {
+        "MobileBottomMenu": {
+            "more": "More"
+        },
+        "MobileGameNavbar": {
+            "srOnly": "Close panel",
+            "home": "Home",
+            "games": "Games",
+            "AboutUs": "About Us",
+            "dashboard": "Dashboard",
+            "news": "News",
+            "Login": "Login",
+            "SignUp": "Sign Up",
+            "greetings": "Hi"
+        },
+        "Navbar": {
+            "login": "Login",
+            "signup": "Register"
+        },
+        "Footer": {
+            "thirdColumn": {
+                "privacyPolicy": "Privacy Policy",
+                "termsOfService": "Terms of Service",
+                "cookiePolicy": "Cookie Policy"
+            },
+            "version": "Version",
+            "rightsReserved": "All rights reserved."
+        }
+    },
+    "valorant": {
+        "ValorantIndex": {
+            "backgroundAlt": "Valorant index page background",
+            "searchText": "Search",
+            "searchPlaceholder": "Player name ex: id#tag"
+        },
+        "WeaponDetail": {
+            "WeaponInfoSection": {
+                "WeaponStats": {
+                    "title": "Weapon Stats",
+                    "fireRate": "Fire Rate",
+                    "magazineSize": "Magazine Size",
+                    "runSpeedMultiplier": "Run Speed Multiplier",
+                    "equipTimeSeconds": "Equip Time(seconds)",
+                    "reloadTimeSeconds": "Reload Time(seconds)",
+                    "firstBulletAccuracy": "First Bullet Accuracy",
+                    "shotgunPelletCount": "Shotgun Pellet Count"
+                },
+                "Shopstats": {
+                    "title": "Shop Stats",
+                    "cost": "Cost",
+                    "category": "Category",
+                    "positionOnShop": "Position on Shop"
+                },
+                "AdsStats": {
+                    "title": "Ads Stats",
+                    "wallPenetration": "Wall Penetration",
+                    "zoomMultiplier": "Zoom Multiplier",
+                    "fireRate": "Fire Rate",
+                    "runSpeedMultiplier": "Run Speed Multiplier",
+                    "burstCount": "Burst Count",
+                    "firstBulletAccuracy": "First Bullet Accuracy",
+                    "fireMode": "Fire Mode"
+                },
+                "RangeStats": {
+                    "title": "Range Stats",
+                    "range": "Range",
+                    "HeadDamage": "Head Damage",
+                    "BodyDamage": "Body Damage",
+                    "LegDamage": "Leg Damage"
+                }
+            },
+            "allSkinsButtonText": "Check All Skins of"
+        },
+        "AgentDetails": {
+            "Abilities": "Abilities"
+        }
+    }
+}
