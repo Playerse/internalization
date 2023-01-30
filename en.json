@@ -22,7 +22,7 @@
             "emailLabel": "Email address",
             "emailPlaceholder": "Enter your email address",
             "passwordLabel": "Password",
-            "passwordPlaceholder": "Enter your email address",
+            "passwordPlaceholder": "Enter your password",
             "loginButton": "Login",
             "ifUserNotHaveAccount": "If you don't have an account",
             "registerButton": "Register"
