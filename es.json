@@ -1,0 +1,127 @@
+{
+    "index": {
+        "title": {
+            "slogan1": "ALL-IN-ONE PLACE",
+            "slogan2": "FOR",
+            "slogan3": "PLAYERS"
+        },
+        "games": "Juegos",
+        "New": "NUEVO",
+        "comingSoon": "Muy Pronto...",
+        "AboutUs": {
+            "title": "Sobre Nosotros",
+            "paragraf1": "¿Alguna vez has querido saber como ser mejor en un juego pero no sabes donde comenzar? ¿Alguna vez has querido compartir tus consejos y trucos con el resto del mundo pero no sabes como? Bien, Nosotros lo tenemos cubierto.",
+            "paragraf2": "Creemos que los videojuegos es una experiencia social; una que no deberia ser limitada por la falta de una herramienta correcta para el trabajo o la perdida de tiempo buscandola. Nuestra meta es asegurarnos de que tengas un buen comienzo en tu viaje de mejora ",
+            "paragraf3": "Estamos hablando sobre PLAYERSE, un proyecto que permite a los gamers acceder a todo, desde las guias para los juegos como Valorant y League of Legends hasta wikis con informacion de jugadores profesionales y sus configuraciones, blogs donde los jugadores podran discutir sobre los juegos o los ultimos parches, talvez movimiento geniales e incluso estadisticas en juego estadisticas para jugadores",
+            "paragraf4": "Somos un equipo de gamers, entusiastas y soñadores. Quienes han estado trabajando duro para hacer de PLAYERSE el mejor lugar en la web para gamers/jugadores para encontrar lo que ellos puedan imaginar para el juego que ellos esten jugando."
+        }
+    },
+    "user": {
+        "Login": {
+            "title": "Acceder",
+            "emailLabel": "Direccion de correo",
+            "emailPlaceholder": "Ingrese su direccion de correo",
+            "passwordLabel": "Contraseña",
+            "passwordPlaceholder": "Ingrese su contraseña",
+            "loginButton": "Acceder",
+            "ifUserNotHaveAccount": "Si no tienes una cuenta",
+            "registerButton": "Registarse"
+        },
+        "Register": {
+            "title": "Registarse",
+            "usernameLabel": "Nombre de usuario",
+            "usernamePlaceholder": "@nombreDeUsuario",
+            "nameLabel": "Nombre",
+            "namePlaceholder": "Por favor Ingrese su nombre",
+            "surnameLabel": "Apellido",
+            "surnamePlaceholder": "Por favor Ingrese su apellido",
+            "emailLabel": "Direccion de correo",
+            "emailPlaceholder": "Ingrese su direccion de correo",
+            "passwordLabel": "Contraseña",
+            "passwordPlaceholder": "Ingrese su contraseña",
+            "phoneLabel": "Numero celular",
+            "phonePlaceholder": "Ingrese su numero celular",
+            "registerButton": "Crear Cuenta",
+            "ifUserHaveAccount": "Si tienes una cuenta",
+            "loginButton": "Acceder",
+            "successText": "Exito!"
+        }
+    },
+    "UI": {
+        "MobileBottomMenu": {
+            "more": "Mas"
+        },
+        "MobileGameNavbar": {
+            "srOnly": "Cerrar panel",
+            "home": "Inicio",
+            "games": "Juegos",
+            "AboutUs": "Acerca de nosotros",
+            "dashboard": "Tablero",
+            "news": "Noticias",
+            "Login": "Acceder",
+            "SignUp": "Registrase",
+            "greetings": "Hola"
+        },
+        "Navbar": {
+            "login": "Acceder",
+            "signup": "Registrarse"
+        },
+        "Footer": {
+            "thirdColumn": {
+                "privacyPolicy": "Politica de Privacidad",
+                "termsOfService": "Terminos y Servicios",
+                "cookiePolicy": "Politica de Cookies"
+            },
+            "version": "Version",
+            "rightsReserved": "Todos los derechos reservados."
+        }
+    },
+    "valorant": {
+        "ValorantIndex": {
+            "backgroundAlt": "Fondo de pagina indice de Valorant",
+            "searchText": "Buscar",
+            "searchPlaceholder": "Nombre del jugador ex: id#tag"
+        },
+        "WeaponDetail": {
+            "WeaponInfoSection": {
+                "WeaponStats": {
+                    "title": "Estadisticas de Arma",
+                    "fireRate": "Cadencia de Fuego",
+                    "magazineSize": "Tamaño de Cargador",
+                    "runSpeedMultiplier": "Multiplicador de Velocidad de Carrera",
+                    "equipTimeSeconds": "Tiempo de Equipar(segundos)",
+                    "reloadTimeSeconds": "Tiempo de Recarga(segundos)",
+                    "firstBulletAccuracy": "Certeza de la Primera Bala",
+                    "shotgunPelletCount": "Conteo de Perdigones de Escopeta "
+                },
+                "Shopstats": {
+                    "title": "Tienda de Estadisticas",
+                    "cost": "Costo",
+                    "category": "Categoria",
+                    "positionOnShop": "Posicion en la Tienda"
+                },
+                "AdsStats": {
+                    "title": "Estadisticas de Anuncions",
+                    "wallPenetration": "Penetracion de Pared",
+                    "zoomMultiplier": "Multiplicador de Zoom",
+                    "fireRate": "Cadencia de Fuego",
+                    "runSpeedMultiplier": "Mutiplicador de Velocidad de Carrera",
+                    "burstCount": "Conteo de Rafaga",
+                    "firstBulletAccuracy": "Certeza de la Primera Bala",
+                    "fireMode": "Modo de Fuego"
+                },
+                "RangeStats": {
+                    "title": "Estadisticas de Rango",
+                    "range": "Rango",
+                    "HeadDamage": "Daño a Cabeza",
+                    "BodyDamage": "Daño a Cuerpo",
+                    "LegDamage": "Daño a Pierna"
+                }
+            },
+            "allSkinsButtonText": "Mira todas las Skins de"
+        },
+        "AgentDetails": {
+            "Abilities": "Habilidades"
+        }
+    }
+}
