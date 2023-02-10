@@ -10,27 +10,42 @@
         "comingSoon": "Coming Soon...",
         "AboutUs": {
             "title": "About Us",
-            "paragraf1": "Have you ever wanted to know how to get better at a game, but didn't know where to start? Have you ever wanted to share your tips and tricks with the rest of the world, but didn't know how? Well, we've got you covered.",
-            "paragraf2": "We believe that gaming is a social experience; one that shouldn't be limited by a lack of the right tool for the job, or a time waste looking for it. Our goal is to make sure you get a jump start on your improvement journey.",
-            "paragraf3": "We're talking about PLAYERSE, a project that allows gamers to access everything from guides for games like Valorant and League of Legends to wikis with information on pro players and their settings, blogs where players can discuss the games or latest patches maybe cool moves, and even stats in game stats for players.",
-            "paragraf4": "We're a team of gamers, enthusiasts, and dreamers. Who have been working hard to make PLAYERSE the best place on the web for gamers/players to find what they can imagine for that game they are playing."
+            "text": "Who are we? What is our goal? What is the purpose of the site?",
+            "button": "Get all those answers on About page."
         }
+    },
+    "AboutUs": {
+        "title": "About Us",
+        "paragraf1": "Have you ever wanted to know how to get better at a game, but didn't know where to start? Have you ever wanted to share your tips and tricks with the rest of the world, but didn't know how? Well, we've got you covered.",
+        "paragraf2": "We believe that gaming is a social experience; one that shouldn't be limited by a lack of the right tool for the job, or a time waste looking for it. Our goal is to make sure you get a jump start on your improvement journey.",
+        "paragraf3": "We're talking about PLAYERSE, a project that allows gamers to access everything from guides for games like Valorant and League of Legends to wikis with information on pro players and their settings, blogs where players can discuss the games or latest patches maybe cool moves, and even stats in game stats for players.",
+        "paragraf4": "We're a team of gamers, enthusiasts, and dreamers. Who have been working hard to make PLAYERSE the best place on the web for gamers/players to find what they can imagine for that game they are playing."
     },
     "user": {
         "Login": {
             "title": "Login",
-            "emailLabel": "Email address",
-            "emailPlaceholder": "Enter your email address",
+            "emailLabel": "Username/Email address",
+            "emailPlaceholder": "Enter Username or your email address",
             "passwordLabel": "Password",
-            "passwordPlaceholder": "Enter your email address",
+            "passwordPlaceholder": "Enter your password",
             "loginButton": "Login",
             "ifUserNotHaveAccount": "If you don't have an account",
-            "registerButton": "Register"
+            "registerButton": "Register",
+            "errors": {
+                "email": {
+                    "invalid": "Invalid e-mail!",
+                    "required": "E-mail field is required!"
+                },
+                "password": {
+                    "min": "Password is too short - should be 8 chars minimum.",
+                    "required": "Password field is required!"
+                }
+            }
         },
         "Register": {
             "title": "Register",
             "usernameLabel": "Username",
-            "usernamePlaceholder": "@username",
+            "usernamePlaceholder": "Username",
             "nameLabel": "Name",
             "namePlaceholder": "Please enter your name",
             "surnameLabel": "Surname",
@@ -39,12 +54,60 @@
             "emailPlaceholder": "Enter your email address",
             "passwordLabel": "Password",
             "passwordPlaceholder": "Enter your password",
+            "passwordConfirmLabel": "Confirm Password",
+            "passwordConfirmPlaceholder": "Re-enter your password",
             "phoneLabel": "Phone Number",
             "phonePlaceholder": "Enter your phone number",
             "registerButton": "Create Account",
             "ifUserHaveAccount": "If you have an account",
             "loginButton": "Login",
-            "successText": "Success!"
+            "successText": "Success!",
+            "errors": {
+                "username": {
+                    "min": "Too Short!",
+                    "max": "Too Long!",
+                    "required": "Username field is required!",
+                    "regex": "Only english characters,numbers and underscore allowed."
+                },
+                "name": {
+                    "min": "Too Short!",
+                    "max": "Too Long!",
+                    "regex": "Only english characters allowed.",
+                    "required": "Name field is required!!"
+                },
+                "surname": {
+                    "min": "Too Short!",
+                    "max": "Too Long!",
+                    "regex": "Only english characters allowed.",
+                    "required": "Surname field is required!!"
+                },
+                "email": {
+                    "invalid": "Invalid e-mail!",
+                    "minRep": "Too much repeating characters.",
+                    "required": "E-mail field is required!"
+                },
+                "password": {
+                    "min": "Password is too short - should be 8 chars minimum.",
+                    "required": "Şifre alanı gereklidir!"
+                },
+                "passwordConfirm": {
+                    "invalid": "Passwords must match",
+                    "required": "E-mail alanı gereklidir!"
+                },
+                "phone": {
+                    "invalid": "Invalid phone number!",
+                    "required": "Phone number required!"
+                }
+            }
+        }
+    },
+    "dashboard": {
+        "sidebar": {
+            "account": "Account",
+            "pass": "Password",
+            "plan": "Plans & Billing",
+            "integrations": "Integrations",
+            "collapse": "Collapse sidebar"
         }
     },
     "UI": {
@@ -63,10 +126,37 @@
             "greetings": "Hi"
         },
         "Navbar": {
+            "Subnavbar": {
+                "valorant": {
+                    "home": "Home",
+                    "agents": "Agents",
+                    "weapons": "Weapons",
+                    "leaderboard": "Leaderboard"
+                },
+                "lol": {
+                    "home": "Home",
+                    "champs": "Champions",
+                    "weekly": "Weekly Free Champs",
+                    "leaderboard": "Leaderboard",
+                    "builds": "Builds",
+                    "overlay": "Overlay"
+                }
+            },
             "login": "Login",
             "signup": "Register"
         },
         "Footer": {
+            "firstColumn": {
+                "bussines": "Bussines",
+                "applyUs": "Apply us",
+                "aboutUs": "About Us",
+                "legal": "Legal jibber jabber"
+            },
+            "secondColumn": {
+                "news": "Our news",
+                "premium": "Premium",
+                "updateLog": "Update log"
+            },
             "thirdColumn": {
                 "privacyPolicy": "Privacy Policy",
                 "termsOfService": "Terms of Service",
@@ -79,7 +169,6 @@
     "valorant": {
         "ValorantIndex": {
             "backgroundAlt": "Valorant index page background",
-            "searchText": "Search",
             "searchPlaceholder": "Player name ex: id#tag"
         },
         "WeaponDetail": {
@@ -122,6 +211,96 @@
         },
         "AgentDetails": {
             "Abilities": "Abilities"
+        }
+    },
+    "league": {
+        "champRotation": "Free Champions of the week",
+        "Index": {
+            "backgroundAlt": "League index page background",
+            "searchPlaceholder": "Summoner Name..."
+        },
+        "Match": {
+            "win": "Win",
+            "lose": "Lose",
+            "mapTypes": {
+                "summerVariant": "Summoner's Rift Summer map",
+                "autumnVariant": "Summoner's Rift Autumn map",
+                "provingGrounds": "The Proving Grounds",
+                "twistedTreeOriginal": "Twisted Treeline",
+                "crystalScar": "The Crystal Scar",
+                "twistedTree": "Twisted Treeline",
+                "summonerRift": "Summoner's Rift",
+                "howlingAbyss": "Howling Abyss",
+                "butchersBridge": "Butcher's Bridge",
+                "cosmicRuins": "Cosmic Ruins",
+                "valoranCityPark": "Valoran City Park",
+                "substructure43": "Substructure 43",
+                "crashSite": "Crash Site",
+                "nexusBlitz": "Nexus Blitz",
+                "convergence": "Convergence"
+            },
+            "qTypes": {
+                "srRankedSolo": "Ranked Solo",
+                "srDraftPick": "Draft Pick",
+                "srRankedDynamic": "Ranked Solo",
+                "srBlindPick": "Blind Pick",
+                "srRankedFlex": "Ranked Flex",
+                "srULTSpellBook": "Ultimate Spellbook",
+                "srURF": "URF",
+                "srArURF": "URF",
+                "haAram": "Aram",
+                "srCOOPvsAI": "Coop vs Bots"
+            }
+        },
+        "Champions": {
+            "filter": {
+                "all": "All",
+                "assas": "Assassins",
+                "fighter": "Passive",
+                "mage": "Passive",
+                "marksman": "Passive",
+                "support": "Passive",
+                "tank": "Passive",
+                "searchPlaceholder": "Champion Name..."
+            }
+        },
+        "ChampionDetail": {
+            "readmore": "Read More",
+            "role": {
+                "title": "role",
+                "assassins": "Assassins",
+                "fighter": "fighter",
+                "mage": "mage",
+                "marksman": "marksman",
+                "support": "support",
+                "tank": "tank"
+            },
+            "footer": {
+                "mastery": "masteries",
+                "builds": "builds",
+                "statics": "statics",
+                "tips": "tips"
+            },
+            "abilities": {
+                "title": "abilities",
+                "passive": "Passive"
+            },
+            "difficulty": {
+                "text": "DIFFICULTY",
+                "levels": {
+                    "easy": "LOW",
+                    "medium": "MODERATE",
+                    "hard": "HIGH"
+                }
+            },
+            "tips": {
+                "title": "Tips",
+                "ally": "As Ally",
+                "enemy": "As Enemy"
+            },
+            "skins": {
+                "title": "Skins"
+            }
         }
     }
 }
