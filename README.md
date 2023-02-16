@@ -9,7 +9,7 @@ If you are interested in contributing to Playerse localization, follow these ste
 
 1.  Fork the [Playerse internalization repository](https://github.com/Playerse/internalization) to your own GitHub account.
 2.  Clone your fork of the repository to your local machine..
-3.  Choose the language you want to translate and create a new file named `strings.<lang>.json`, where `<lang>` is the [ISO 639-1 language code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for your language.
+3.  Choose the language you want to translate and create a new file named `<lang>.json`, where `<lang>` is the [ISO 639-1 language code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for your language.
 4.  Open the `<lang>.json` file and translate the strings in the file into your language. Please make sure to follow the same format as the original English strings and keep the placeholders in the translated strings intact.
 5.  Once you have finished translating the strings, save the file and commit your changes to your fork of the repository.
 6.  Submit a pull request to the `Playerse/internalization` repository, with your changes included in the pull request.
