@@ -30,4 +30,4 @@ In addition to translating the strings in the translations , you may also be int
 
 ## Thank You
 
-Thank you for your interest in contributing to the Playerse localization project. Your contributions help us make our games more accessible to players around the world. If you have any questions or concerns about the translation process, please contact us at [localization@playerse.com](mailto:localization@playerse.com).
+Thank you for your interest in contributing to the Playerse localization project. Your contributions help us make platform more accessible to players around the world. If you have any questions or concerns about the translation process, please contact us at [localization@playerse.com](mailto:localization@playerse.com).
