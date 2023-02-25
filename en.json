@@ -216,6 +216,7 @@
     },
     "league": {
         "champRotation": "Free Champions of the week",
+<<<<<<< HEAD
         "countdown": {
             "title": {
                 "eventTitle": "Your Shop finish time.",
@@ -270,6 +271,11 @@
             "bronze": "Bronze",
             "iron": "Iron",
             "unranked": "Unranked"
+=======
+        "Index": {
+            "backgroundAlt": "League index page background",
+            "searchPlaceholder": "Summoner Name..."
+>>>>>>> 860b3426326fada1724be2c728b8eb98e5bb8ebd
         },
         "Match": {
             "win": "Win",
@@ -297,7 +303,11 @@
                 "srRankedDynamic": "5v5 Ranked Solo",
                 "srBlindPick": "5v5 Blind Pick",
                 "srRankedFlex": "5v5 Ranked Flex",
+<<<<<<< HEAD
                 "srULTSpellBook": "Ultimate Spellbook",
+=======
+                "srULTSpellBook": "5v5 Ultimate Spellbook",
+>>>>>>> 860b3426326fada1724be2c728b8eb98e5bb8ebd
                 "srURF": "URF",
                 "srArURF": "A.R. URF",
                 "haAram": "Aram",
@@ -357,6 +367,7 @@
                 "csAI": "COOP vs Bot",
                 "tt3v3Ranked": "3v3 Ranked",
                 "tt3v3AI": "3v3 Bot"
+<<<<<<< HEAD
             },
             "matchDayTime": {
                 "sec": "sec ago",
@@ -379,6 +390,8 @@
                 "kill_p": "Kill P.",
                 "cs": "CS",
                 "vision": "Vision"
+=======
+>>>>>>> 860b3426326fada1724be2c728b8eb98e5bb8ebd
             }
         },
         "Champions": {

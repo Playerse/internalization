@@ -221,6 +221,7 @@
     "league": {
         "champRotation": "Haftanın ücretsiz şampiyonları",
         "Index": {
+<<<<<<< HEAD
             "backgroundAlt": "Lig index sayfası arkaplanı",
             "searchPlaceholder": "Sihirdar Adı"
         },
@@ -274,11 +275,16 @@
             "bronze": "Bronz",
             "iron": "Demir",
             "unranked": "Derecesiz"
+=======
+            "backgroundAlt": "League index page background",
+            "searchPlaceholder": "Summoner Name..."
+>>>>>>> 860b3426326fada1724be2c728b8eb98e5bb8ebd
         },
         "Match": {
             "win": "Zafer",
             "lose": "Bozgun",
             "mapTypes": {
+<<<<<<< HEAD
                 "summerVariant": "Sihirdar Vadisi Yaz haritası",
                 "autumnVariant": "Sihirdar Vadisi Yaz haritası",
                 "provingGrounds": "Deneme Alanları",
@@ -288,6 +294,17 @@
                 "summonerRift": "Sihirdar Vadisi",
                 "howlingAbyss": "Sonsuz Uçurum",
                 "butchersBridge": "Kasap Köprüsü",
+=======
+                "summerVariant": "Summoner's Rift Summer map",
+                "autumnVariant": "Summoner's Rift Autumn map",
+                "provingGrounds": "The Proving Grounds",
+                "twistedTreeOriginal": "Twisted Treeline",
+                "crystalScar": "The Crystal Scar",
+                "twistedTree": "Twisted Treeline",
+                "summonerRift": "Summoner's Rift",
+                "howlingAbyss": "Howling Abyss",
+                "butchersBridge": "Butcher's Bridge",
+>>>>>>> 860b3426326fada1724be2c728b8eb98e5bb8ebd
                 "cosmicRuins": "Cosmic Ruins",
                 "valoranCityPark": "Valoran City Park",
                 "substructure43": "Substructure 43",
@@ -361,6 +378,7 @@
                 "csAI": "COOP vs Bot",
                 "tt3v3Ranked": "3v3 Ranked",
                 "tt3v3AI": "3v3 Bot"
+<<<<<<< HEAD
             },
             "matchDayTime": {
                 "sec": "sn önce",
@@ -383,6 +401,8 @@
                 "kill_p": "Skor K.",
                 "cs": "MS",
                 "vision": "Görüş"
+=======
+>>>>>>> 860b3426326fada1724be2c728b8eb98e5bb8ebd
             }
         },
         "Champions": {
