@@ -1,4 +1,5 @@
 {
+    "translate": "Çevirileri iyileştirmek ister misiniz?",
     "index": {
         "title": {
             "slogan1": "BÜTÜN OYUNCULAR",
@@ -10,41 +11,108 @@
         "comingSoon": "Çok Yakında...",
         "AboutUs": {
             "title": "Hakkımızda",
-            "paragraf1": "Have you ever wanted to know how to get better at a game, but didn't know where to start? Have you ever wanted to share your tips and tricks with the rest of the world, but didn't know how? Well, we've got you covered.",
-            "paragraf2": "We believe that gaming is a social experience; one that shouldn't be limited by a lack of the right tool for the job, or a time waste looking for it. Our goal is to make sure you get a jump start on your improvement journey.",
-            "paragraf3": "We're talking about PLAYERSE, a project that allows gamers to access everything from guides for games like Valorant and League of Legends to wikis with information on pro players and their settings, blogs where players can discuss the games or latest patches maybe cool moves, and even stats in game stats for players.",
-            "paragraf4": "We're a team of gamers, enthusiasts, and dreamers. Who have been working hard to make PLAYERSE the best place on the web for gamers/players to find what they can imagine for that game they are playing."
+            "text": "Biz kimiz? Hedeflerimiz neler? Bu sitenin amacı ne?",
+            "button": "Bütün cevapları Hakkımızda sayfasında öğren."
         }
+    },
+    "AboutUs": {
+        "title": "Hakkımızda",
+        "paragraf1": "Have you ever wanted to know how to get better at a game, but didn't know where to start? Have you ever wanted to share your tips and tricks with the rest of the world, but didn't know how? Well, we've got you covered.",
+        "paragraf2": "We believe that gaming is a social experience; one that shouldn't be limited by a lack of the right tool for the job, or a time waste looking for it. Our goal is to make sure you get a jump start on your improvement journey.",
+        "paragraf3": "We're talking about PLAYERSE, a project that allows gamers to access everything from guides for games like Valorant and League of Legends to wikis with information on pro players and their settings, blogs where players can discuss the games or latest patches maybe cool moves, and even stats in game stats for players.",
+        "paragraf4": "We're a team of gamers, enthusiasts, and dreamers. Who have been working hard to make PLAYERSE the best place on the web for gamers/players to find what they can imagine for that game they are playing."
     },
     "user": {
         "Login": {
             "title": "Giriş Yap",
-            "emailLabel": "Email adresi",
-            "emailPlaceholder": "Email adresinizi giriniz",
+            "emailLabel": "Kullanıcı Adı/Email adresi",
+            "emailPlaceholder": "Kullanıcı adı veya Email adresinizi giriniz",
             "passwordLabel": "Şifre",
             "passwordPlaceholder": "Şifrenizi giriniz",
             "loginButton": "Giriş Yap",
             "ifUserNotHaveAccount": "Eğer hesabınız yoksa,",
-            "registerButton": "Kayıt Ol"
+            "registerButton": "Kayıt Ol",
+            "errors": {
+                "email": {
+                    "invalid": "Geçersiz e-mail!",
+                    "required": "E-mail alanı gereklidir!"
+                },
+                "password": {
+                    "min": "Şifre çok kısa - en az 8 karakter olmalı.",
+                    "required": "Şifre alanı gereklidir!"
+                }
+            }
         },
         "Register": {
             "title": "Kayıt Ol",
             "usernameLabel": "Kullanıcı Adı",
-            "usernamePlaceholder": "@KullanıcıAdı",
+            "usernamePlaceholder": "KullanıcıAdı",
             "nameLabel": "İsim",
             "namePlaceholder": "İsminizi giriniz",
-            "surnameLabel": "Soyisim",
-            "surnamePlaceholder": "Soyisminizi giriniz",
+            "surnameLabel": "Soyad",
+            "surnamePlaceholder": "Soyadınızı giriniz",
             "emailLabel": "Email adresi",
             "emailPlaceholder": "Email adresinizi giriniz",
             "passwordLabel": "Şifre",
             "passwordPlaceholder": "Şifrenizi giriniz",
+            "passwordConfirmLabel": "Şifrenizi onaylayın",
+            "passwordConfirmPlaceholder": "Şifrenizi tekrar giriniz.",
             "phoneLabel": "Telefon Numarası",
             "phonePlaceholder": "Telefon numaranızı giriniz",
             "registerButton": "Hesap Oluştur",
             "ifUserHaveAccount": "Eğer hesabınız varsa,",
             "loginButton": "Giriş Yap",
-            "successText": "Başarılı!"
+            "successText": "Başarılı!",
+            "errors": {
+                "username": {
+                    "min": "Çok kısa!",
+                    "max": "Çok uzun!",
+                    "required": "Username field is required!",
+                    "regex": "Sadece ingilizce harfler, sayılar ve alt çizgiye izin verilmektedir."
+                },
+                "name": {
+                    "min": "Çok kısa!",
+                    "max": "Çok uzun!",
+                    "regex": "Özel karakterlere izin verilmemektedir.",
+                    "required": "İsim bölümü gereklidir!"
+                },
+                "surname": {
+                    "min": "Çok kısa!",
+                    "max": "Çok uzun!",
+                    "regex": "Special characters not allowed.",
+                    "required": "Soyisim bölümü gereklidir!"
+                },
+                "email": {
+                    "invalid": "Geçersiz e-mail!",
+                    "minRep": "Too much repeating characters.",
+                    "required": "E-mail bölümü gereklidir!"
+                },
+                "password": {
+                    "min": "Şifre çok kısa - en az 8 karakter olmalı.",
+                    "max": "Şifre çok kısa - en az 8 karakter olmalı.",
+                    "minLower": "Şifre çok kısa - en az 8 karakter olmalı.",
+                    "minUpper": "Şifre çok kısa - en az 8 karakter olmalı.",
+                    "minNumber": "Şifre çok kısa - en az 8 karakter olmalı.",
+                    "required": "Şifre alanı gereklidir!"
+                },
+                "passwordConfirm": {
+                    "invalid": "Geçersiz şifre tekrarı!",
+                    "required": "Şifre onaylama alanı gereklidir!"
+                },
+                "phone": {
+                    "invalid": "Geçersiz telefon numarası!",
+                    "required": "Telefon numarası gereklidir!"
+                }
+            }
+        }
+    },
+    "dashboard": {
+        "sidebar": {
+            "account": "Hesap",
+            "pass": "Şifre",
+            "plan": "Planlar & Faturalandırma",
+            "integrations": "Entegrasyonlar",
+            "collapse": "Yan menüyü gizle"
         }
     },
     "UI": {
@@ -63,23 +131,49 @@
             "greetings": "Merhaba"
         },
         "Navbar": {
+            "Subnavbar": {
+                "valorant": {
+                    "home": "Anasayfa",
+                    "agents": "Ajanlar",
+                    "weapons": "Silahlar",
+                    "leaderboard": "Lider Tablosu"
+                },
+                "lol": {
+                    "home": "Anasayfa",
+                    "champs": "Şampiyonlar",
+                    "weekly": "Haftanın ücretsizleri",
+                    "leaderboard": "Lider Tablosu",
+                    "builds": "Buildler",
+                    "overlay": "Overlay"
+                }
+            },
             "login": "Giriş Yap",
             "signup": "Kayıt Ol"
         },
         "Footer": {
-            "thirdColumn": {
-                "privacyPolicy": "Privacy Policy",
-                "termsOfService": "Terms of Service",
-                "cookiePolicy": "Cookie Policy"
+            "firstColumn": {
+                "bussines": "İş",
+                "applyUs": "Bize başvurun",
+                "aboutUs": "Hakkımızda",
+                "legal": "Legal Ivır Zıvır"
             },
-            "version": "Version",
-            "rightsReserved": "All rights reserved."
+            "secondColumn": {
+                "news": "Haberlerimiz",
+                "premium": "Premium",
+                "updateLog": "Güncellemeler"
+            },
+            "thirdColumn": {
+                "privacyPolicy": "Gizlilik Politikası",
+                "termsOfService": "Kullanım Şartları",
+                "cookiePolicy": "Çerez politikası"
+            },
+            "version": "Versiyon",
+            "rightsReserved": "Tüm hakları Saklıdır."
         }
     },
     "valorant": {
         "ValorantIndex": {
             "backgroundAlt": "Valorant index page background",
-            "searchText": "ara",
             "searchPlaceholder": "Player name ex: id#tag"
         },
         "WeaponDetail": {
@@ -122,6 +216,244 @@
         },
         "AgentDetails": {
             "Abilities": "Yetenekler"
+        }
+    },
+    "league": {
+        "champRotation": "Haftanın ücretsiz şampiyonları",
+        "Index": {
+<<<<<<< HEAD
+            "backgroundAlt": "Lig index sayfası arkaplanı",
+            "searchPlaceholder": "Sihirdar Adı"
+        },
+        "countdown": {
+            "title": {
+                "eventTitle": "Senin mağazan bitiş tarihi",
+                "eventTitle2": "Senin mağazan ne zaman açılacak?"
+            },
+            "days": "gün",
+            "hours": "saat",
+            "minutes": "dakika",
+            "seconds": "saniye"
+        },
+        "profile": {
+            "level": "Seviye",
+            "noRankText": "Bu sihirdarın herhangi bir dereceli bilgisi yok.",
+            "lastMatches": {
+                "KDA": "Son {number} Maç KDA",
+                "wr": "Son {number} Maç W/R",
+                "lane": "Son {number} Maç En Çok Oynanan Lane"
+            },
+            "getMoreMatches": "Aşağıya kaydırarak daha çok maç getirin.",
+            "rankedInfo": "Dereceli Bilgisi",
+            "totalWinrate": "Toplam Zafer Oranı",
+            "lastMatchesSentence": "Son {number} Maç",
+            "rankTypes": {
+                "soloQ": "Dereceli Tek",
+                "flexQ": "Dereceli Esnek"
+            },
+            "noMatchFound": "Maç Bulunamadı!",
+            "lp": "LP",
+            "win": "zafer",
+            "loss": "bozgun",
+            "w": "z",
+            "l": "b",
+            "wr": "Z/O",
+            "totalGames": "Toplam Oyunlar",
+            "freshBlood": "Taze Kan",
+            "veteran": "Veteran",
+            "inactive": "Inaktif",
+            "hotStreak": "Sıcak Seri"
+        },
+        "Ranks": {
+            "challanger": "Şampiyonluk",
+            "gmaster": "Grandmaster",
+            "master": "Ustalık",
+            "dia": "Elmas",
+            "plat": "Platin",
+            "gold": "Altın",
+            "silver": "Gümüş",
+            "bronze": "Bronz",
+            "iron": "Demir",
+            "unranked": "Derecesiz"
+=======
+            "backgroundAlt": "League index page background",
+            "searchPlaceholder": "Summoner Name..."
+>>>>>>> 860b3426326fada1724be2c728b8eb98e5bb8ebd
+        },
+        "Match": {
+            "win": "Zafer",
+            "lose": "Bozgun",
+            "mapTypes": {
+<<<<<<< HEAD
+                "summerVariant": "Sihirdar Vadisi Yaz haritası",
+                "autumnVariant": "Sihirdar Vadisi Yaz haritası",
+                "provingGrounds": "Deneme Alanları",
+                "twistedTreeOriginal": "Uğursuz Koruluk",
+                "crystalScar": "Kristal Kayalık",
+                "twistedTree": "Twisted Treeline",
+                "summonerRift": "Sihirdar Vadisi",
+                "howlingAbyss": "Sonsuz Uçurum",
+                "butchersBridge": "Kasap Köprüsü",
+=======
+                "summerVariant": "Summoner's Rift Summer map",
+                "autumnVariant": "Summoner's Rift Autumn map",
+                "provingGrounds": "The Proving Grounds",
+                "twistedTreeOriginal": "Twisted Treeline",
+                "crystalScar": "The Crystal Scar",
+                "twistedTree": "Twisted Treeline",
+                "summonerRift": "Summoner's Rift",
+                "howlingAbyss": "Howling Abyss",
+                "butchersBridge": "Butcher's Bridge",
+>>>>>>> 860b3426326fada1724be2c728b8eb98e5bb8ebd
+                "cosmicRuins": "Cosmic Ruins",
+                "valoranCityPark": "Valoran City Park",
+                "substructure43": "Substructure 43",
+                "crashSite": "Crash Site",
+                "nexusBlitz": "Nexus Blitz",
+                "convergence": "Convergence"
+            },
+            "qTypes": {
+                "srRankedSolo": "5v5 Ranked Solo",
+                "srDraftPick": "5v5 Draft Pick",
+                "srRankedDynamic": "5v5 Ranked Solo",
+                "srBlindPick": "5v5 Blind Pick",
+                "srRankedFlex": "5v5 Ranked Flex",
+                "srULTSpellBook": "5v5 Ultimate Spellbook",
+                "srURF": "URF",
+                "srArURF": "A.R. URF",
+                "haAram": "Aram",
+                "srBlindPickDeprecated2": "5v5 Blind Pick",
+                "srRankedPremade": "5v5 Ranked Premade",
+                "srCOOPvsAI": "BOT Games",
+                "srRankedSolo4": "5v5 Ranked Solo",
+                "srDraftPick14": "5v5 Draft Pick",
+                "srBeginnerBot": "Beginner Bot",
+                "srINTERMEDIATEBOT": "Intermediate bot",
+                "srRANKEDTEAM": "Ranked Team",
+                "srTeamBuilder": "Team Builder",
+                "haAramDeprecated": "Aram",
+                "haAI": "Aram Bot",
+                "srOneForAll": "One For All",
+                "ha1v1": "Aram 1v1",
+                "ha2v2": "Aram 2v2",
+                "sr6V6HexaKill": "Hexakill",
+                "haOneForAllMirror": "One For All Mirror",
+                "srUltraRapidFireAI": "Ultra Rapid Fire Bot",
+                "srDoomBotsRank1": "Doom Bots Rank 1",
+                "srDoomBotsRank2": "Doom Bots Rank 2",
+                "srDoomBotsRank5": "Doom Bots Rank 5",
+                "csAscension": "Ascension",
+                "tt6V6Hexakill": "Hexakill",
+                "bb5V5Aram": "Butchers Bridge Aram",
+                "haPoroKing": "Aram Poro King",
+                "srNemesis": "Nemesis",
+                "srBlackMarketBrawlers": "Black Market Brawlers",
+                "srNexusSiege": "Nexus Siege",
+                "csDefinitelynotDominion": "Crystal Scar",
+                "haArurf": "Aram A.R. URF",
+                "srRandom": "All Random",
+                "srDraft": "Draft Pick",
+                "tt3v3flex": "Ranked Flex",
+                "srBloodHuntAssasIn": "Blood Hunt",
+                "cosmicRuinsDarkStar": "Dark STar",
+                "srClash": "Clash",
+                "ttIntermediateAI": "IntermedIate Bot",
+                "ttIntroIAI": "Intro Bot",
+                "ttBeginnerIAI": "Beginner Intro Bot",
+                "srIntroAI": "Intro Bot",
+                "srBeginnerAI": "Beginner Bot",
+                "srIntermediateAI": "Intermediate Bot",
+                "valoranCityPark": "Star Guardian Mode",
+                "ProjectHunters": "Project Hunters",
+                "srSnowArurf": "Snow ArurF",
+                "OdysseyAdventure": "Odyssey Adventure",
+                "NexusBlitz": "Nexus Blitz",
+                "srTUTORIAL1": "Tutorial 1",
+                "srTUTORIAL2": "Tutorial 2",
+                "srTUTORIAL3": "Tutorial 3",
+                "tt3v3Normal": "3v3 Normal",
+                "tt3v3Rankedflex": "3v3 Ranked Flex",
+                "cs5V5BlindPick": "Blind Pick",
+                "cs5V5DraftPick": "Draft Pick",
+                "csAI": "COOP vs Bot",
+                "tt3v3Ranked": "3v3 Ranked",
+                "tt3v3AI": "3v3 Bot"
+<<<<<<< HEAD
+            },
+            "matchDayTime": {
+                "sec": "sn önce",
+                "hour": "saat önce",
+                "day": "gün önce"
+            },
+            "matchPlayTime": {
+                "min": {
+                    "minute": "dakika",
+                    "minutes": "dakika"
+                },
+                "hour": {
+                    "hour": "saat",
+                    "hours": "saat"
+                }
+            },
+            "stats": {
+                "k_d_a": "S/Ö/A",
+                "kda": "SÖA",
+                "kill_p": "Skor K.",
+                "cs": "MS",
+                "vision": "Görüş"
+=======
+>>>>>>> 860b3426326fada1724be2c728b8eb98e5bb8ebd
+            }
+        },
+        "Champions": {
+            "filter": {
+                "all": "All",
+                "assas": "Assassins",
+                "fighter": "Passive",
+                "mage": "Passive",
+                "marksman": "Passive",
+                "support": "Passive",
+                "tank": "Passive",
+                "searchPlaceholder": "Champion Name..."
+            }
+        },
+        "ChampionDetail": {
+            "readmore": "Daha Fazlası",
+            "role": {
+                "title": "Rol",
+                "assassins": "Suikastçı",
+                "fighter": "Dövüşçü",
+                "mage": "Büyücü",
+                "marksman": "Nişancı",
+                "support": "Destek",
+                "tank": "Tank"
+            },
+            "footer": {
+                "mastery": "ustalık",
+                "builds": "Buildler",
+                "statics": "İstatistikler",
+                "tips": "İpuçları"
+            },
+            "abilities": {
+                "title": "YETENEKLER",
+                "passive": "PASİF"
+            },
+            "difficulty": {
+                "text": "ZORLUK SEVİYESİ",
+                "levels": {
+                    "easy": "Düşük",
+                    "medium": "Orta",
+                    "hard": "Yüksek"
+                }
+            },
+            "tips": {
+                "title": "İpucu",
+                "ally": "Dost Olarak",
+                "enemy": "Rakip Olarak"
+            },
+            "skins": {
+                "title": "Kostümler"
+            }
         }
     }
 }
