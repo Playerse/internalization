@@ -216,66 +216,9 @@
     },
     "league": {
         "champRotation": "Free Champions of the week",
-<<<<<<< HEAD
-        "countdown": {
-            "title": {
-                "eventTitle": "Your Shop finish time.",
-                "eventTitle2": "When will be your shop available?"
-            },
-            "days": "days",
-            "hours": "hours",
-            "minutes": "minutes",
-            "seconds": "seconds"
-        },
-        "Index": {
-            "backgroundAlt": "League index page background",
-            "searchPlaceholder": "Summoner Name"
-        },
-        "profile": {
-            "level": "Level",
-            "noRankText": "This summoner doesn't have any ranked info.",
-            "lastMatches": {
-                "KDA": "Last {number} Matches KDA",
-                "wr": "Last {number} Matches W/R",
-                "lane": "Most Played Lane for Last {number} Matches"
-            },
-            "getMoreMatches": "Scroll down to get more matches.",
-            "rankedInfo": "Ranked Info",
-            "totalWinrate": "Total Winrate",
-            "lastMatchesSentence": "Last {number} Matches",
-            "rankTypes": {
-                "soloQ": "Ranked Solo",
-                "flexQ": "Ranked Flex"
-            },
-            "noMatchFound": "No Match Found!",
-            "lp": "LP",
-            "win": "win",
-            "loss": "loss",
-            "w": "w",
-            "l": "l",
-            "wr": "W/R",
-            "totalGames": "Total Games",
-            "freshBlood": "Fresh Blood",
-            "veteran": "Veteran",
-            "inactive": "Inactive",
-            "hotStreak": "Hot Streak"
-        },
-        "Ranks": {
-            "challanger": "Challenger",
-            "gmaster": "Grandmaster",
-            "master": "Master",
-            "dia": "Diamond",
-            "plat": "Platinum",
-            "gold": "Gold",
-            "silver": "Silver",
-            "bronze": "Bronze",
-            "iron": "Iron",
-            "unranked": "Unranked"
-=======
         "Index": {
             "backgroundAlt": "League index page background",
             "searchPlaceholder": "Summoner Name..."
->>>>>>> 860b3426326fada1724be2c728b8eb98e5bb8ebd
         },
         "Match": {
             "win": "Win",
@@ -303,11 +246,7 @@
                 "srRankedDynamic": "5v5 Ranked Solo",
                 "srBlindPick": "5v5 Blind Pick",
                 "srRankedFlex": "5v5 Ranked Flex",
-<<<<<<< HEAD
-                "srULTSpellBook": "Ultimate Spellbook",
-=======
                 "srULTSpellBook": "5v5 Ultimate Spellbook",
->>>>>>> 860b3426326fada1724be2c728b8eb98e5bb8ebd
                 "srURF": "URF",
                 "srArURF": "A.R. URF",
                 "haAram": "Aram",
@@ -367,31 +306,6 @@
                 "csAI": "COOP vs Bot",
                 "tt3v3Ranked": "3v3 Ranked",
                 "tt3v3AI": "3v3 Bot"
-<<<<<<< HEAD
-            },
-            "matchDayTime": {
-                "sec": "sec ago",
-                "hour": "hour ago",
-                "day": "day ago"
-            },
-            "matchPlayTime": {
-                "min": {
-                    "minute": "minute",
-                    "minutes": "minutes"
-                },
-                "hour": {
-                    "hour": "hour",
-                    "hours": "hours"
-                }
-            },
-            "stats": {
-                "k_d_a": "K/D/A",
-                "kda": "KDA",
-                "kill_p": "Kill P.",
-                "cs": "CS",
-                "vision": "Vision"
-=======
->>>>>>> 860b3426326fada1724be2c728b8eb98e5bb8ebd
             }
         },
         "Champions": {
