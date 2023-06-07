@@ -1,0 +1,362 @@
+{
+    "translate": "¿Quieres mejorar las traducciones?",
+    "index": {
+        "title": {
+            "slogan1": "TODO EN UN MISMO LUGAR",
+            "slogan2": "PARA",
+            "slogan3": "JUGADORES"
+        },
+        "games": "Juegos",
+        "New": "NUEVO",
+        "comingSoon": "MUY PRONTO...",
+        "AboutUs": {
+            "title": "Sobre Nosotros",
+            "text": "¿Quienes somos nosotros? ¿Cual es nuestra meta? ¿Cual es el proposito del sitio?",
+            "button": "Obten todas esas respuestas en acerca de la página"
+        }
+    },
+    "AboutUs": {
+        "title": "Sobre Nosotros",
+        "paragraf1": "¿Alguna vez has querido saber como mejorar en un juego, pero no sabes donde como comenzar? ¿Alguna vez has querido compartir tus consejos y trucos con el resto del mundo, pero no sabes cómo? Bien, nosotros lo tenemos cubierto",
+        "paragraf2": "Nosotros creemos que los videojuegos es una experiencia social; una que no debe ser limitada por la falta de la herramienta correcta para el trabajo, o una perdida de tiempo buscándola. Nuestra meta es asegurarnos de darte ese salto inicial en tu camino de mejora",
+        "paragraf3": "Nosotros estamos hablando sobre PLAYERSE, un proyecto que permite a los jugadores el acceso a todo, desde guías para juegos como Valorant y League of Legends hasta wikis con información de jugadores profesionales y sus configuraciones, blogs donde jugares pueden discutir los juegos o últimos parches, tal vez películas interesantes e incluso algunas estadísticas en juego para jugadores",
+        "paragraf4": "Nosotros somos un equipo de jugadores, entusiastas y soñadores. Quienes han estado trabajando duro para poder crear de PLAYERSE el mejor lugar en la web para que los jugadores puedan encontrar lo que ellos puedan imaginar por ese juego en específico."
+    },
+    "user": {
+        "Login": {
+            "title": "Iniciar Sesion",
+            "emailLabel": "Nombre de Usuario/Correo Electrónico",
+            "emailPlaceholder": "Ingrese el nombre de usuario o su correo electrónico",
+            "passwordLabel": "Contraseña",
+            "passwordPlaceholder": "Ingrese su contraseña",
+            "loginButton": "Iniciar Sesion",
+            "ifUserNotHaveAccount": "Si no tienes aún una cuenta",
+            "registerButton": "Registrarse",
+            "errors": {
+                "email": {
+                    "invalid": "Correo Invalido!",
+                    "required": "El campo del correo es requerido!"
+                },
+                "password": {
+                    "min": "La contraseña es muy corta - debe tener mínimo 8 caracteres.",
+                    "required": "El campo de la contraseña es requerido!"
+                }
+            }
+        },
+        "Register": {
+            "title": "Registro",
+            "usernameLabel": "Nombre de usuario",
+            "usernamePlaceholder": "Nombre de usuario",
+            "nameLabel": "Nombre",
+            "namePlaceholder": "Por favor ingrese su nombre",
+            "surnameLabel": "Apellido",
+            "surnamePlaceholder": "Por favor ingrese su apellido",
+            "emailLabel": "Correo Electrónico",
+            "emailPlaceholder": "Ingrese su correo electrónico",
+            "passwordLabel": "Contraseña",
+            "passwordPlaceholder": "Ingrese su contraseña",
+            "passwordConfirmLabel": "Confirmar contraseña",
+            "passwordConfirmPlaceholder": "Vuelve a ingresar tu contraseña",
+            "phoneLabel": "Numero Celular",
+            "phonePlaceholder": "Ingrese su numero celular",
+            "registerButton": "Crear Cuenta",
+            "ifUserHaveAccount": "Si ya tienes una cuenta",
+            "loginButton": "Iniciar Sesion",
+            "successText": "Exito!",
+            "errors": {
+                "username": {
+                    "min": "Muy Corto!",
+                    "max": "Muy Largo!",
+                    "required": "El campo del nombre de usuario es requerido!",
+                    "regex": "Solo caracteres en ingles, numeros y guiones bajos permitidos."
+                },
+                "name": {
+                    "min": "Muy Corto!",
+                    "max": "Muy Largo!",
+                    "regex": "Solo caracteres en ingles",
+                    "required": "El campo del nombre es requerido!!"
+                },
+                "surname": {
+                    "min": "Muy Corto!",
+                    "max": "Muy Largo!",
+                    "regex": "Solo caracteres eniIngles",
+                    "required": "El campo del apellido es requerido!!"
+                },
+                "email": {
+                    "invalid": "Correo Invalido!",
+                    "minRep": "Demasiados caracteres repetidos.",
+                    "required": "El campo del correo es requerido!"
+                },
+                "password": {
+                    "min": "La contraseña es muy corta - debe tener minimo 8 caracteres.",
+                    "required": "La Contraseña es requerida!"
+                },
+                "passwordConfirm": {
+                    "invalid": "Las contraseñas deben coincidir",
+                    "required": "La Confirmacion de la contraseña es requerida!"
+                },
+                "phone": {
+                    "invalid": "Numero de Celular invalido!",
+                    "required": "Numero de Celular requerido!"
+                }
+            }
+        }
+    },
+    "dashboard": {
+        "sidebar": {
+            "account": "Cuenta",
+            "pass": "Contraseña",
+            "plan": "Planes y Facturacion",
+            "integrations": "Integraciones",
+            "collapse": "Cerrar Barra Lateral"
+        }
+    },
+    "UI": {
+        "MobileBottomMenu": {
+            "more": "Mas"
+        },
+        "MobileGameNavbar": {
+            "srOnly": "Cerrar Panel",
+            "home": "Inicio",
+            "games": "Juegos",
+            "AboutUs": "Sobre Nosotros",
+            "dashboard": "Panel",
+            "news": "Noticias",
+            "Login": "Iniciar Sesion",
+            "SignUp": "Registrare",
+            "greetings": "Hola"
+        },
+        "Navbar": {
+            "Subnavbar": {
+                "valorant": {
+                    "home": "Inicio",
+                    "agents": "Agentes",
+                    "weapons": "Armas",
+                    "leaderboard": "Tabla de Clasificación"
+                },
+                "lol": {
+                    "home": "Inicio",
+                    "champs": "Campeones",
+                    "weekly": "Campeones Semanales Gratis",
+                    "leaderboard": "Tabla de Clasificación",
+                    "builds": "Builds",
+                    "overlay": "Overlay"
+                }
+            },
+            "login": "Iniciar Sesion",
+            "signup": "Registrarse"
+        },
+        "Footer": {
+            "firstColumn": {
+                "bussines": "Negocios",
+                "applyUs": "Aplica con Nosotros",
+                "aboutUs": "Sobre Nosotros",
+                "legal": "Temas Legales"
+            },
+            "secondColumn": {
+                "news": "Noticias Nuestras",
+                "premium": "Premium",
+                "updateLog": "Registro de Actualizaciones"
+            },
+            "thirdColumn": {
+                "privacyPolicy": "Politica de Privacidad",
+                "termsOfService": "Terminos del Servicio",
+                "cookiePolicy": "Politica de Cookie"
+            },
+            "version": "Version",
+            "rightsReserved": "Todos los Derechos Reservados."
+        }
+    },
+    "valorant": {
+        "ValorantIndex": {
+            "backgroundAlt": "Fondo de la pagina de indice de Valorant",
+            "searchPlaceholder": "Nombre del jugador ej: id#tag"
+        },
+        "WeaponDetail": {
+            "WeaponInfoSection": {
+                "WeaponStats": {
+                    "title": "Estadisticas del arma",
+                    "fireRate": "Cadencia de fuego",
+                    "magazineSize": "Tamaño del cargador",
+                    "runSpeedMultiplier": "Multiplicador de velocidad al correr",
+                    "equipTimeSeconds": "Tiempo de equipar(segundos)",
+                    "reloadTimeSeconds": "Tiempo de recarga(segundos)",
+                    "firstBulletAccuracy": "Certeza de la primera bala",
+                    "shotgunPelletCount": "Recuento de perdigones perdidos"
+                },
+                "Shopstats": {
+                    "title": "Estadisticas de la tienda",
+                    "cost": "Costo",
+                    "category": "Categoria",
+                    "positionOnShop": "Posicion en tienda"
+                },
+                "AdsStats": {
+                    "title": "Ads Stats",
+                    "wallPenetration": "Penetracion de paredes",
+                    "zoomMultiplier": "Multiplicador de zoom",
+                    "fireRate": "Cadencia de fuego",
+                    "runSpeedMultiplier": "Multiplicador de velocidad al correr",
+                    "burstCount": "Conteo de rafagas",
+                    "firstBulletAccuracy": "Certeza de la primera bala",
+                    "fireMode": "Modo de fuego"
+                },
+                "RangeStats": {
+                    "title": "Estadisticas de rango",
+                    "range": "Rango",
+                    "HeadDamage": "Daño a cabeza",
+                    "BodyDamage": "Daño a cuerpo",
+                    "LegDamage": "Daño a piernas"
+                }
+            },
+            "allSkinsButtonText": "Comprueba todas los aspectos de"
+        },
+        "AgentDetails": {
+            "Abilities": "Habilidades"
+        }
+    },
+    "league": {
+        "champRotation": "Campeones gratuitos de la semana",
+        "Index": {
+            "backgroundAlt": "Fondo de la pagina indice de league",
+            "searchPlaceholder": "Nombre de invocador..."
+        },
+        "Match": {
+            "win": "Victoria",
+            "lose": "Derrota",
+            "mapTypes": {
+                "summerVariant": "Mapa de verano de la grieta del invocador",
+                "autumnVariant": "Mapa de invierno de la grieta del invocador",
+                "provingGrounds": "Campo de pruebas",
+                "twistedTreeOriginal": "Línea de árboles retorcidos",
+                "crystalScar": "La cicatriz de cristal",
+                "twistedTree": "Línea de árboles retorcidos",
+                "summonerRift": "Grieta del invocador",
+                "howlingAbyss": "Abismo de los lamentos",
+                "butchersBridge": "Puente del carnicero",
+                "cosmicRuins": "Ruinas cósmicas",
+                "valoranCityPark": "Parque de la ciudad de valorant",
+                "substructure43": "Subestructura 43",
+                "crashSite": "Lugar del accidente",
+                "nexusBlitz": "Nexus Blitz",
+                "convergence": "Convergencia"
+            },
+            "qTypes": {
+                "srRankedSolo": "5v5 Clasificatoria Solo",
+                "srDraftPick": "5v5 Reclutamiento Seleccion",
+                "srRankedDynamic": "5v5 Clasificatoria Solo",
+                "srBlindPick": "5v5 Seleccion A Ciegas",
+                "srRankedFlex": "5v5 Clasificatoria Flexible",
+                "srULTSpellBook": "5v5 Libro de Hechizos Definitivo",
+                "srURF": "URF",
+                "srArURF": "A.R. URF",
+                "haAram": "Aram",
+                "srBlindPickDeprecated2": "5v5 Seleccion A Ciegas",
+                "srRankedPremade": "5v5 Clasificatoria Grupo PreOrganizado",
+                "srCOOPvsAI": "Juegos con Bots",
+                "srRankedSolo4": "5v5 Clasificatoria Solo",
+                "srDraftPick14": "5v5 Seleccion A Ciegas",
+                "srBeginnerBot": "Bots Principiantes",
+                "srINTERMEDIATEBOT": "Bots Intermedio",
+                "srRANKEDTEAM": "Clasificatoria Equipo",
+                "srTeamBuilder": "Equipo Constructor",
+                "haAramDeprecated": "Aram",
+                "haAI": "Aram Bots",
+                "srOneForAll": "Uno Para Todos",
+                "ha1v1": "Aram 1v1",
+                "ha2v2": "Aram 2v2",
+                "sr6V6HexaKill": "Hexakill",
+                "haOneForAllMirror": "Uno Para Todos Espejo",
+                "srUltraRapidFireAI": "Fuego Ultra Rapido Bots",
+                "srDoomBotsRank1": "Bots Malditos de la Muertes 1",
+                "srDoomBotsRank2": "Bots Malditos de la Muertes 2",
+                "srDoomBotsRank5": "Bots Malditos de la Muertes 5",
+                "csAscension": "Ascension",
+                "tt6V6Hexakill": "Hexakill",
+                "bb5V5Aram": "Puente del Carnicero Aram",
+                "haPoroKing": "Aram Rey Poro",
+                "srNemesis": "Nemesis",
+                "srBlackMarketBrawlers": "Peleadores del Mercado Negro",
+                "srNexusSiege": "Nexus Asedio",
+                "csDefinitelynotDominion": "Cicatriz de Cristral",
+                "haArurf": "Aram A.R. URF",
+                "srRandom": "Todo Aleatorio",
+                "srDraft": "Draft Pick",
+                "tt3v3flex": "Clasificatoria Flexible",
+                "srBloodHuntAssasIn": "Caceria de sangre",
+                "cosmicRuinsDarkStar": "Estrella Oscura",
+                "srClash": "Clash",
+                "ttIntermediateAI": "Bot Intermedio",
+                "ttIntroIAI": "Bot Inicio",
+                "ttBeginnerIAI": "Bot Inicio Principiante",
+                "srIntroAI": "Bot Inicio",
+                "srBeginnerAI": "Bot Principiante",
+                "srIntermediateAI": "Bot Intermedio",
+                "valoranCityPark": "Modo Guardian Estelar",
+                "ProjectHunters": "Projecto Cazadores",
+                "srSnowArurf": "Snow ArurF",
+                "OdysseyAdventure": "Aventura Odisea",
+                "NexusBlitz": "Nexus Blitz",
+                "srTUTORIAL1": "Tutorial 1",
+                "srTUTORIAL2": "Tutorial 2",
+                "srTUTORIAL3": "Tutorial 3",
+                "tt3v3Normal": "3v3 Normal",
+                "tt3v3Rankedflex": "3v3 Clasificatoria Flexible",
+                "cs5V5BlindPick": "Seleccion A Ciegas",
+                "cs5V5DraftPick": "Draft Pick",
+                "csAI": "COOP vs Bot",
+                "tt3v3Ranked": "3v3 Clasificatoria",
+                "tt3v3AI": "3v3 Bot"
+            }
+        },
+        "Champions": {
+            "filter": {
+                "all": "Todos",
+                "assas": "Asesinos",
+                "fighter": "Pasiva",
+                "mage": "Pasiva",
+                "marksman": "Pasiva",
+                "support": "Pasiva",
+                "tank": "Pasiva",
+                "searchPlaceholder": "Nombre de Campeon..."
+            }
+        },
+        "ChampionDetail": {
+            "readmore": "Leer Mas",
+            "role": {
+                "title": "Role",
+                "assassins": "Asesino",
+                "fighter": "Luchador",
+                "mage": "Mago",
+                "marksman": "Tirador",
+                "support": "Soporte",
+                "tank": "Tanque"
+            },
+            "footer": {
+                "mastery": "Maestrias",
+                "builds": "builds",
+                "statics": "Estatico",
+                "tips": "Consejos"
+            },
+            "abilities": {
+                "title": "Habilidades",
+                "passive": "Pasivas"
+            },
+            "difficulty": {
+                "text": "Dificultad",
+                "levels": {
+                    "easy": "BAJA",
+                    "medium": "MODERADO",
+                    "hard": "ALTA"
+                }
+            },
+            "tips": {
+                "title": "Consejos",
+                "ally": "Como Aliado",
+                "enemy": "Como Enemigo"
+            },
+            "skins": {
+                "title": "Aspectos"
+            }
+        }
+    }
+}

@@ -221,80 +221,13 @@
     "league": {
         "champRotation": "Haftanın ücretsiz şampiyonları",
         "Index": {
-<<<<<<< HEAD
-            "backgroundAlt": "Lig index sayfası arkaplanı",
-            "searchPlaceholder": "Sihirdar Adı"
-        },
-        "countdown": {
-            "title": {
-                "eventTitle": "Senin mağazan bitiş tarihi",
-                "eventTitle2": "Senin mağazan ne zaman açılacak?"
-            },
-            "days": "gün",
-            "hours": "saat",
-            "minutes": "dakika",
-            "seconds": "saniye"
-        },
-        "profile": {
-            "level": "Seviye",
-            "noRankText": "Bu sihirdarın herhangi bir dereceli bilgisi yok.",
-            "lastMatches": {
-                "KDA": "Son {number} Maç KDA",
-                "wr": "Son {number} Maç W/R",
-                "lane": "Son {number} Maç En Çok Oynanan Lane"
-            },
-            "getMoreMatches": "Aşağıya kaydırarak daha çok maç getirin.",
-            "rankedInfo": "Dereceli Bilgisi",
-            "totalWinrate": "Toplam Zafer Oranı",
-            "lastMatchesSentence": "Son {number} Maç",
-            "rankTypes": {
-                "soloQ": "Dereceli Tek",
-                "flexQ": "Dereceli Esnek"
-            },
-            "noMatchFound": "Maç Bulunamadı!",
-            "lp": "LP",
-            "win": "zafer",
-            "loss": "bozgun",
-            "w": "z",
-            "l": "b",
-            "wr": "Z/O",
-            "totalGames": "Toplam Oyunlar",
-            "freshBlood": "Taze Kan",
-            "veteran": "Veteran",
-            "inactive": "Inaktif",
-            "hotStreak": "Sıcak Seri"
-        },
-        "Ranks": {
-            "challanger": "Şampiyonluk",
-            "gmaster": "Grandmaster",
-            "master": "Ustalık",
-            "dia": "Elmas",
-            "plat": "Platin",
-            "gold": "Altın",
-            "silver": "Gümüş",
-            "bronze": "Bronz",
-            "iron": "Demir",
-            "unranked": "Derecesiz"
-=======
             "backgroundAlt": "League index page background",
             "searchPlaceholder": "Summoner Name..."
->>>>>>> 860b3426326fada1724be2c728b8eb98e5bb8ebd
         },
         "Match": {
             "win": "Zafer",
             "lose": "Bozgun",
             "mapTypes": {
-<<<<<<< HEAD
-                "summerVariant": "Sihirdar Vadisi Yaz haritası",
-                "autumnVariant": "Sihirdar Vadisi Yaz haritası",
-                "provingGrounds": "Deneme Alanları",
-                "twistedTreeOriginal": "Uğursuz Koruluk",
-                "crystalScar": "Kristal Kayalık",
-                "twistedTree": "Twisted Treeline",
-                "summonerRift": "Sihirdar Vadisi",
-                "howlingAbyss": "Sonsuz Uçurum",
-                "butchersBridge": "Kasap Köprüsü",
-=======
                 "summerVariant": "Summoner's Rift Summer map",
                 "autumnVariant": "Summoner's Rift Autumn map",
                 "provingGrounds": "The Proving Grounds",
@@ -304,7 +237,6 @@
                 "summonerRift": "Summoner's Rift",
                 "howlingAbyss": "Howling Abyss",
                 "butchersBridge": "Butcher's Bridge",
->>>>>>> 860b3426326fada1724be2c728b8eb98e5bb8ebd
                 "cosmicRuins": "Cosmic Ruins",
                 "valoranCityPark": "Valoran City Park",
                 "substructure43": "Substructure 43",
@@ -378,31 +310,6 @@
                 "csAI": "COOP vs Bot",
                 "tt3v3Ranked": "3v3 Ranked",
                 "tt3v3AI": "3v3 Bot"
-<<<<<<< HEAD
-            },
-            "matchDayTime": {
-                "sec": "sn önce",
-                "hour": "saat önce",
-                "day": "gün önce"
-            },
-            "matchPlayTime": {
-                "min": {
-                    "minute": "dakika",
-                    "minutes": "dakika"
-                },
-                "hour": {
-                    "hour": "saat",
-                    "hours": "saat"
-                }
-            },
-            "stats": {
-                "k_d_a": "S/Ö/A",
-                "kda": "SÖA",
-                "kill_p": "Skor K.",
-                "cs": "MS",
-                "vision": "Görüş"
-=======
->>>>>>> 860b3426326fada1724be2c728b8eb98e5bb8ebd
             }
         },
         "Champions": {
